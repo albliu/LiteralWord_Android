@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		
+		<LinearLayout android:id="@+id/selection"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true" android:paddingRight="30px">
+			<Button android:id="@+id/spinner_books" android:layout_width="wrap_content"
+				android:layout_height="fill_parent" android:layout_weight="4"
+				android:textSize="18dp" />
+			<Button android:id="@+id/spinner_chapters"
+				android:layout_height="fill_parent" android:layout_width="wrap_content"
+				android:layout_weight="2" android:textSize="18dp" />
+
+		</LinearLayout>
+
+
+		<WebView android:id="@+id/dispPanel" android:layout_height="0dp"
+			android:layout_width="fill_parent" android:layout_weight="1"/>
+	</LinearLayout>
+
+	<Button android:id="@+id/show_sel" android:background="@drawable/ic_menu_close_clear_cancel"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"></Button>
+
+	<Button android:id="@+id/show_menu" android:background="@drawable/ic_menu_close_clear_cancel"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"></Button>
+
+	<LinearLayout android:id="@+id/nav_menu"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:paddingRight="30px" android:gravity="right">
+		
+		<Button android:id="@+id/pchap" android:layout_height="wrap_content"
+			android:background="@drawable/lbutton" android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/nchap" android:layout_height="wrap_content"
+			android:background="@drawable/rbutton" android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/zin" android:layout_height="wrap_content"
+			android:background="@drawable/zoomin" android:layout_width="wrap_content"></Button>
+		<Button android:id="@+id/zout" android:layout_height="wrap_content"
+			android:background="@drawable/zoomout" android:layout_width="wrap_content"></Button>
+
+	</LinearLayout>
+
+	<Button android:id="@+id/goto_verse" android:background="@drawable/btn_verse"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"></Button>
+		
+	<Button android:id="@+id/vmenu" android:layout_width="wrap_content" android:visibility="gone"
+		android:background="@drawable/cbutton" android:layout_height="wrap_content" android:layout_toRightOf="@id/goto_verse" android:layout_alignParentBottom="true"></Button>
+
+
+
+</RelativeLayout>

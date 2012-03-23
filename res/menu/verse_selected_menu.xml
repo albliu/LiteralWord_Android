@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/copy_to_clipboard" android:title="Copy to ClipBoard"></item><item android:id="@+id/add_memory" android:title="add to Memory Verse"/>
+    <item android:id="@+id/add_note" android:title="add New Note"></item>
+    <item android:id="@+id/add_bookmark" android:title="Add to Bookmarks"></item><item android:id="@+id/clear_hl" android:title="Clear Highlights"></item>
+    
+    
+    
+</menu>

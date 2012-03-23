@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="split_screen_panel" />
+	<item type="id" name="home_but" />
+	<item type="id" name="search_panel" />
+	<item type="id" name="bookmark_panel" />
+	<item type="id" name="notes_folder_panel" />
+	<item type="id" name="notes_edit_panel" />
+	<item type="id" name="notes_p" />
+	<item type="id" name="disp_p" />
+	<item type="id" name="reader_fragment" />
+	<item type="id" name="new_note" />
+	<item type="id" name="delete" />
+	<item type="id" name="start_memory" />
+</resources>

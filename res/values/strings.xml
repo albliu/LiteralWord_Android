@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="no_results">No results</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="dissmiss">Discard</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="app_name">LiteralWord</string>
+    <string name="search_bible">Search the Bible</string>
+    <string name="verse_menu_title">Selected Verses</string>
+     <string name="verse_delete">Delete Verse</string>
+</resources>

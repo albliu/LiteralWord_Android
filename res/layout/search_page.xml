@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal" android:id="@+id/search_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/search_filter" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:background="@drawable/ic_menu_sort_by_size"></Button>
+		<EditText android:id="@+id/search_text" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" android:singleLine="true"
+			android:textSize="18dp" android:hint="@string/search_bible" />
+		<Button android:id="@+id/search_go" android:background="@drawable/search_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="0dp" android:layout_weight="1" android:fastScrollEnabled="true"/>
+	<TextView android:id="@android:id/empty" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/no_results" />
+	<LinearLayout android:id="@+id/filter_bar"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:id="@+id/filter_category"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/filter_books" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1" />
+		<TextView android:id="@+id/search_count"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="16dp" android:textColor="#FFFF0000" />
+	</LinearLayout>
+</LinearLayout>

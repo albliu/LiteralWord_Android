@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<TextView android:id="@+id/context_menu_title" android:layout_width="fill_parent" android:gravity="center" android:textSize="24dp" android:textColor="@android:color/white"
+		android:layout_height="wrap_content" android:text="Context Menu" android:background="@android:color/black" android:singleLine="true"/>
+	<LinearLayout android:id="@+id/context_menu" android:layout_width="fill_parent" android:background="#FFFFFF"
+		android:layout_height="wrap_content" android:layout_weight="1" android:layout_gravity="center" android:orientation="vertical"/>
+</LinearLayout>

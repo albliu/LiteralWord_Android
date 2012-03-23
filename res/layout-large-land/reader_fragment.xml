@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<include android:id="@+id/my_action_bar" layout="@layout/action_bar"/>
+	<LinearLayout android:layout_weight="1"
+		android:layout_width="match_parent" android:layout_height="0dp"
+		android:orientation="horizontal">
+
+		<FrameLayout android:id="@id/search_panel"
+			android:layout_width="0dp" android:layout_height="match_parent"
+			android:visibility="gone" android:layout_weight="1"></FrameLayout>
+		<LinearLayout android:layout_width="0dp"
+			android:layout_weight="2" android:layout_height="match_parent"
+			android:orientation="horizontal" android:id="@id/disp_p">
+			<fragment android:name="com.LiteralWord.Bible.BibleReaderFragment"
+				android:layout_width="0dp" android:layout_height="fill_parent"
+				android:id="@id/reader_fragment" android:layout_weight="1">
+			</fragment>
+			<FrameLayout android:id="@id/split_screen_panel"
+				android:layout_weight="1" android:layout_height="fill_parent"
+				android:layout_width="0dp" android:visibility="gone"></FrameLayout>
+		</LinearLayout>
+		<ViewFlipper android:layout_width="0dp"
+			android:layout_weight="1" android:layout_height="match_parent"
+			android:orientation="vertical" android:id="@id/notes_p"
+			android:visibility="gone">
+			<FrameLayout android:id="@id/notes_folder_panel"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"></FrameLayout>
+			<FrameLayout android:id="@id/notes_edit_panel"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"></FrameLayout>
+		</ViewFlipper>
+	</LinearLayout>
+</LinearLayout>

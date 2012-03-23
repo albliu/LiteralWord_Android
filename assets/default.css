@@ -1,0 +1,10 @@
+h1.h{font-weight:bold; font-style:italic; font-size:100%}
+h1.ss{font-weight:normal; font-style:italic; font-size:90%}
+h1.sf{font-weight:normal; font-style:italic; font-size:100%}
+h1.sb{display:none}
+dt{padding-left: 2em;  text-indent:-2em;}
+fn{display:none;}
+sc{font-size:80%;}
+vn{font-weight:bold; font-size:70%}
+cp{font-size:70%}
+sv{display:none;}

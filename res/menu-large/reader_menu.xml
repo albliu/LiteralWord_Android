@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/gotoSearch" android:title="@string/menu_search"
+		android:icon="@android:drawable/ic_menu_search" />
+	<item android:id="@+id/gotoNotes" android:title="@string/menu_notes"
+		android:icon="@android:drawable/ic_menu_edit" />
+	<item android:id="@+id/toggleView" android:icon="@android:drawable/ic_menu_add"
+		android:title="Split View"></item>
+	<item android:id="@+id/gotoMemoryV" android:title="Memory Verses"></item>
+	<item android:id="@+id/book_marks" android:title="Bookmarks"></item><item android:title="Help" android:id="@+id/help_screen"
+		android:icon="@android:drawable/ic_menu_help"></item>
+	
+
+</menu>

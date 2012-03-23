@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<EditText android:id="@+id/title" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:hint="@string/title" android:singleLine="true" />
+		<LinearLayout android:orientation="horizontal"
+			android:gravity="right" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_gravity="center">
+			<Button android:id="@+id/confirm" android:gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@android:drawable/ic_menu_save" />
+			<Button android:id="@+id/dismiss" android:gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@android:drawable/ic_menu_delete" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/body" />
+	<EditText android:id="@+id/body" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:gravity="top|left" android:scrollbars="vertical"
+		android:textColor="@android:color/black">
+	</EditText>
+</LinearLayout>
