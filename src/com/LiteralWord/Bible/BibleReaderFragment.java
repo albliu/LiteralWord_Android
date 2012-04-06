@@ -670,8 +670,8 @@ public class BibleReaderFragment extends Fragment implements OnTouchListener {
 						+ "\">" + passage + " <sv><br></sv></V>"; 
 							//+ "\" onClick=\"select()\">" + passage + "</V>"; 
 				if (passage.contains("<PM>")) { 
-					//passage = "<p></p>" + passage;
-					passage = passage.replace("<PM>", "<p></p>");
+					passage = "<p></p>" + passage;
+					passage = passage.replace("<PM>", "");
 				}
 				
 				if (passage.contains("<dd>")) {
